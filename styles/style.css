@@ -78,7 +78,7 @@ ol {
     flex-direction: row; 
     justify-content: space-between; 
     align-items: flex-end; 
-    gap: 40px;
+    gap: 39px;
 }
 
 .content__list-container {
@@ -116,7 +116,7 @@ ol {
 
 .content__video-card-thumbnail {
     height: 103px;
-    min-width: 194px;
+    min-width: 193px;
     object-fit: cover;
     object-position: center;
     margin-left: auto;
@@ -316,7 +316,7 @@ ol {
     border: 1px solid #fff;
     min-height: 34px;
     color: #fff;
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 700;
     background-color: transparent;
     cursor: pointer;
