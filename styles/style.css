@@ -177,7 +177,8 @@ ol {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 30px;
+  letter-spacing: 0%;
+  line-height: 100%;
   color: #fff;
   text-transform: uppercase;
   overflow: hidden;
@@ -307,16 +308,7 @@ ol {
 }
 
 .more-button {
-  font-family: 'Fira Sans Condensed', sans-serif;
-  border: 1px solid #fff;
-  min-height: 34px;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 700;
-  background-color: transparent;
-  cursor: pointer;
-  appearance: none;
-  padding: 0;
+   width: 100%;
 }
 
 .button:active {
