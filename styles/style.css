@@ -51,7 +51,6 @@ ol {
   align-items: flex-start;
   max-width: 1140px;
   width: 100%;
-  max-height: 534px;
   box-sizing: border-box;
 }
 
@@ -201,6 +200,7 @@ ol {
   line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  -webkit-line-clamp: 4;
 }
 
 .custom-scrollbar::-webkit-scrollbar {
@@ -298,6 +298,7 @@ ol {
   font-family: 'Fira Sans Condensed', sans-serif;
   border: 1px solid #fff;
   height: 34px;
+  flex-shrink: 0;
   color: #fff;
   font-size: 18px;
   font-weight: 700;
